@@ -12,20 +12,47 @@
                             <input type="text" id="cityName" placeholder="Enter Your City" autocomplete="off"/>
                             <input type="submit" value="search" id="submitBtn">
                         </form>
-                     </div>  
+                     </div> 
+                     <div class="display-section">
                      <div class="tempInformation">
                         <div class="top_layer">
                             <p id="day">Tuesday</p>
-                            <p id="today_date">13 Oct</p>
                         </div>
                         <div class="main_layer">
-                            <p id="city_name">Output</p>
+                            <p id="city_name"></p>
                             <div class="middle_layer">
-                                <p id="temp"><span id="temp_real_val">0</span><sup>O</sup>C</p>
-                                <p id="temp_status"><i class="fa fa-cloud" aria-hidden="true"></i></p>
+                                <p id="temp"><span id="temp_real_val">0.00 </span><sup>O</sup>C</p>
+                                <p class="ml-5" id="temp_status"><i class="fa" aria-hidden="true"></i></p>
                             </div>
                         </div>
-                     </div>     
+                     </div>  
+                     <div class="detailInformation mt-5">
+                        <div class="">
+                            <div class=" sub-container">
+                                <section>
+                             <p>Feels</p>
+                                <p><span id="feel_like">0</span>℃</p>
+                                <i class="fa-solid fa-temperature-full"></i>
+                                </section>
+                                <section>
+                                <p>Humidity</p>
+                                <p></p><span id="humidity">0</span>%</p>
+                                <i class="fa-solid fa-fire-flame-simple"></i>
+                                </section>
+                                <section>
+                                <p id="">Visibility</p>
+                                <p></p><span id="visibility">0</span> Km</p>
+                                <i class="fa-solid fa-binoculars"></i>
+                                </section>
+                                <section>
+                                <p class="mr-4">Pressure</p>
+                                <p></p><span id="pressure">0</span> Hg</p>
+                                <i class="fa-brands fa-envira mt-2"></i>
+                                </section>
+                            </div>
+                        </div>
+                     </div> 
+                     </div>      
             </div>
         </div>
     </div>
